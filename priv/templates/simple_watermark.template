@@ -1,0 +1,5 @@
+{description, "gen_watermark simple template."}.
+{variables, [
+    {name, "xxx", "Name of the module to create."}
+]}.
+{template, "simple_watermark.erl", "src/{{name}}.erl"}.
