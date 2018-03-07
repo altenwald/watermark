@@ -1,0 +1,12 @@
+{application, watermark, [
+    {description, "Watermark system"},
+    {vsn, git},
+    {registered, []},
+    {applications, [kernel, stdlib]},
+    {env,[]},
+    {modules, []},
+
+    {maintainers, ["Manuel Rubio"]},
+    {licenses, ["LGPL 2.1"]},
+    {links, [{"Github", "https://github.com/altenwald/watermark"}]}
+ ]}.
