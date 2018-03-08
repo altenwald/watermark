@@ -1,5 +1,5 @@
 language: erlang
-script: "./rebar3 do eunit cover"
+script: "make test"
 install: "sudo pip install codecov"
 after_success: "codecov"
 otp_release:
